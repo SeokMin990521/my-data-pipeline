@@ -1,0 +1,13 @@
+{"timestamp":329136,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"N/A","can_load":"true","path_key":"clean","glean_timestamp":"1782464612535"}}
+{"timestamp":329139,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"glean_timestamp":"1782464612536","can_load":"true","path_key":"clean","loadfail_reason":"N/A"}}
+{"timestamp":329139,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"shutdown_reason":"N/A","glean_timestamp":"1782464612537","shutdown_ok":"false"}}
+{"timestamp":329587,"category":"webcompatreporting","name":"reason_dropdown","extra":{"glean_timestamp":"1782464612984","setting":"required"}}
+{"timestamp":330131,"category":"nimbus_events","name":"startup_database_consistency","extra":{"total_db_count":"28","total_store_count":"28","trigger":"startup","primary":"database","glean_timestamp":"1782464613528","store_active_count":"26","db_active_count":"26"}}
+{"timestamp":330347,"category":"jsonfile","name":"load_autofillprofiles","extra":{"glean_timestamp":"1782464613744","value":"error_notfounderror"}}
+{"timestamp":330395,"category":"doh","name":"state_rollback","extra":{"value":"null","glean_timestamp":"1782464613792"}}
+{"timestamp":330542,"category":"containers","name":"container_profile_loaded","extra":{"containers":"4","glean_timestamp":"1782464613938"}}
+{"timestamp":330856,"category":"normandy","name":"enroll_failed_nimbus_experiment","extra":{"value":"expand-vertical-tabs-callout-existing-profiles","reason":"feature-conflict","glean_timestamp":"1782464614253"}}
+{"timestamp":330856,"category":"nimbus_events","name":"enroll_failed","extra":{"reason":"feature-conflict","experiment":"expand-vertical-tabs-callout-existing-profiles","glean_timestamp":"1782464614253"}}
+{"timestamp":330971,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1782464614368"}}
+{"timestamp":331047,"category":"upgrade_dialog","name":"trigger_reason","extra":{"value":"not-major","glean_timestamp":"1782464614444"}}
+{"timestamp":1898691,"category":"doh","name":"state_shutdown","extra":{"glean_timestamp":"1782466182089","value":"null"}}

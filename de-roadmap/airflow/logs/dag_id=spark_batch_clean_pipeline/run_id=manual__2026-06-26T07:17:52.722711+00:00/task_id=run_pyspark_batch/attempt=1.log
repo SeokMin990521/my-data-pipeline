@@ -1,0 +1,58 @@
+[2026-06-26T07:17:59.631+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_batch_clean_pipeline.run_pyspark_batch manual__2026-06-26T07:17:52.722711+00:00 [queued]>
+[2026-06-26T07:17:59.638+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_batch_clean_pipeline.run_pyspark_batch manual__2026-06-26T07:17:52.722711+00:00 [queued]>
+[2026-06-26T07:17:59.638+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2026-06-26T07:17:59.647+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): run_pyspark_batch> on 2026-06-26 07:17:52.722711+00:00
+[2026-06-26T07:17:59.654+0000] {standard_task_runner.py:57} INFO - Started process 105 to run task
+[2026-06-26T07:17:59.686+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'spark_batch_clean_pipeline', 'run_pyspark_batch', 'manual__2026-06-26T07:17:52.722711+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/spark_batch_dag.py', '--cfg-path', '/tmp/tmp2_mj8mfv']
+[2026-06-26T07:17:59.693+0000] {standard_task_runner.py:85} INFO - Job 9: Subtask run_pyspark_batch
+[2026-06-26T07:17:59.816+0000] {task_command.py:416} INFO - Running <TaskInstance: spark_batch_clean_pipeline.run_pyspark_batch manual__2026-06-26T07:17:52.722711+00:00 [running]> on host 44772392a9dc
+[2026-06-26T07:17:59.924+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='hsm_data_engineer' AIRFLOW_CTX_DAG_ID='spark_batch_clean_pipeline' AIRFLOW_CTX_TASK_ID='run_pyspark_batch' AIRFLOW_CTX_EXECUTION_DATE='2026-06-26T07:17:52.722711+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-26T07:17:52.722711+00:00'
+[2026-06-26T07:17:59.925+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-06-26T07:17:59.926+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '\n        python3 -m pip install --user --no-cache-dir pyspark==3.4.1 &&         cd /opt/de-roadmap &&         python3 spark_batch_clean.py\n        ']
+[2026-06-26T07:17:59.938+0000] {subprocess.py:86} INFO - Output:
+[2026-06-26T07:18:02.341+0000] {subprocess.py:93} INFO - Collecting pyspark==3.4.1
+[2026-06-26T07:18:02.369+0000] {subprocess.py:93} INFO -   Downloading pyspark-3.4.1.tar.gz (310.8 MB)
+[2026-06-26T07:18:08.178+0000] {subprocess.py:93} INFO -      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 310.8/310.8 MB 48.9 MB/s eta 0:00:00
+[2026-06-26T07:18:14.417+0000] {subprocess.py:93} INFO -   Preparing metadata (setup.py): started
+[2026-06-26T07:18:15.482+0000] {subprocess.py:93} INFO -   Preparing metadata (setup.py): finished with status 'done'
+[2026-06-26T07:18:15.511+0000] {subprocess.py:93} INFO - Collecting py4j==0.10.9.7
+[2026-06-26T07:18:15.517+0000] {subprocess.py:93} INFO -   Downloading py4j-0.10.9.7-py2.py3-none-any.whl (200 kB)
+[2026-06-26T07:18:15.521+0000] {subprocess.py:93} INFO -      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 200.5/200.5 kB 141.0 MB/s eta 0:00:00
+[2026-06-26T07:18:15.531+0000] {subprocess.py:93} INFO - Building wheels for collected packages: pyspark
+[2026-06-26T07:18:15.531+0000] {subprocess.py:93} INFO -   Building wheel for pyspark (setup.py): started
+[2026-06-26T07:18:30.385+0000] {subprocess.py:93} INFO -   Building wheel for pyspark (setup.py): finished with status 'done'
+[2026-06-26T07:18:30.612+0000] {subprocess.py:93} INFO -   Created wheel for pyspark: filename=pyspark-3.4.1-py2.py3-none-any.whl size=311285387 sha256=58d901d624bd591ffedaa8ecb27cf12224ab6a271bcde07a0aff00ba405b1e4a
+[2026-06-26T07:18:30.612+0000] {subprocess.py:93} INFO -   Stored in directory: /tmp/pip-ephem-wheel-cache-1ry11m2w/wheels/0d/77/a3/ff2f74cc9ab41f8f594dabf0579c2a7c6de920d584206e0834
+[2026-06-26T07:18:30.618+0000] {subprocess.py:93} INFO - Successfully built pyspark
+[2026-06-26T07:18:35.417+0000] {subprocess.py:93} INFO - Installing collected packages: py4j, pyspark
+[2026-06-26T07:18:38.108+0000] {subprocess.py:93} INFO - Successfully installed py4j-0.10.9.7 pyspark-3.4.1
+[2026-06-26T07:18:38.210+0000] {subprocess.py:93} INFO - 
+[2026-06-26T07:18:38.210+0000] {subprocess.py:93} INFO - [notice] A new release of pip is available: 23.0.1 -> 26.1.2
+[2026-06-26T07:18:38.210+0000] {subprocess.py:93} INFO - [notice] To update, run: pip install --upgrade pip
+[2026-06-26T07:18:39.303+0000] {subprocess.py:93} INFO - /home/airflow/.local/lib/python3.10/site-packages/pyspark/bin/load-spark-env.sh: line 68: ps: command not found
+[2026-06-26T07:18:39.305+0000] {subprocess.py:93} INFO - JAVA_HOME is not set
+[2026-06-26T07:18:39.386+0000] {subprocess.py:93} INFO - ⚡ [Internal Network] 컨테이너 전용 고속 백본망 라우팅 개시...
+[2026-06-26T07:18:39.386+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-06-26T07:18:39.387+0000] {subprocess.py:93} INFO -   File "/opt/de-roadmap/spark_batch_clean.py", line 29, in <module>
+[2026-06-26T07:18:39.387+0000] {subprocess.py:93} INFO -     .getOrCreate()
+[2026-06-26T07:18:39.387+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.10/site-packages/pyspark/sql/session.py", line 477, in getOrCreate
+[2026-06-26T07:18:39.387+0000] {subprocess.py:93} INFO -     sc = SparkContext.getOrCreate(sparkConf)
+[2026-06-26T07:18:39.387+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.10/site-packages/pyspark/context.py", line 512, in getOrCreate
+[2026-06-26T07:18:39.387+0000] {subprocess.py:93} INFO -     SparkContext(conf=conf or SparkConf())
+[2026-06-26T07:18:39.387+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.10/site-packages/pyspark/context.py", line 198, in __init__
+[2026-06-26T07:18:39.387+0000] {subprocess.py:93} INFO -     SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+[2026-06-26T07:18:39.387+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.10/site-packages/pyspark/context.py", line 432, in _ensure_initialized
+[2026-06-26T07:18:39.387+0000] {subprocess.py:93} INFO -     SparkContext._gateway = gateway or launch_gateway(conf)
+[2026-06-26T07:18:39.387+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.10/site-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+[2026-06-26T07:18:39.387+0000] {subprocess.py:93} INFO -     raise RuntimeError("Java gateway process exited before sending its port number")
+[2026-06-26T07:18:39.387+0000] {subprocess.py:93} INFO - RuntimeError: Java gateway process exited before sending its port number
+[2026-06-26T07:18:39.440+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-06-26T07:18:39.446+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-06-26T07:18:39.449+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=spark_batch_clean_pipeline, task_id=run_pyspark_batch, execution_date=20260626T071752, start_date=20260626T071759, end_date=20260626T071839
+[2026-06-26T07:18:39.459+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 9 for task run_pyspark_batch (Bash command failed. The command returned a non-zero exit code 1.; 105)
+[2026-06-26T07:18:39.477+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2026-06-26T07:18:39.485+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

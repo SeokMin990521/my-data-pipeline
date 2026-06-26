@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/hsm/%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4/my-data-pipeline/dags" added="2026-06-26T09:36:08.542839Z" modified="2026-06-26T09:36:08.542842Z" visited="2026-06-26T09:36:08.542840Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-06-26T09:36:08.542841Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hsm/%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4/my-data-pipeline/scripts" added="2026-06-26T09:36:14.092897Z" modified="2026-06-26T09:36:14.092900Z" visited="2026-06-26T09:36:14.092897Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-06-26T09:36:14.092898Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hsm/%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4/my-data-pipeline/docker-compose.yml" added="2026-06-26T09:36:24.969743Z" modified="2026-06-26T09:36:24.969750Z" visited="2026-06-26T09:36:24.969744Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-06-26T09:36:24.969748Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hsm/%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4/my-data-pipeline/README.md" added="2026-06-26T09:36:31.597604Z" modified="2026-06-26T09:36:31.597607Z" visited="2026-06-26T09:36:31.597605Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-06-26T09:36:31.597606Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hsm/%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4/my-data-pipeline/dags/spark_batch_dag.py" added="2026-06-26T09:36:54.202556Z" modified="2026-06-26T09:36:54.202559Z" visited="2026-06-26T09:36:54.202556Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-06-26T09:36:54.202557Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hsm/%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4/my-data-pipeline/scripts/spark_batch_clean.py" added="2026-06-26T09:37:17.846686Z" modified="2026-06-26T09:37:17.846689Z" visited="2026-06-26T09:37:17.846686Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-06-26T09:37:17.846687Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hsm/%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4/my-data-pipeline/README.md/README.d" added="2026-06-26T09:38:10.642942Z" modified="2026-06-26T09:38:10.642946Z" visited="2026-06-26T09:38:10.642943Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-06-26T09:38:10.642944Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hsm/%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4/my-data-pipeline/.gitignore" added="2026-06-26T09:40:06.032349Z" modified="2026-06-26T09:40:06.032352Z" visited="2026-06-26T09:40:06.032350Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-06-26T09:40:06.032351Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

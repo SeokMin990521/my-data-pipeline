@@ -1,0 +1,78 @@
+[2026-06-26T07:10:14.148+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_batch_clean_pipeline.run_pyspark_batch scheduled__2026-06-26T06:00:00+00:00 [queued]>
+[2026-06-26T07:10:14.155+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_batch_clean_pipeline.run_pyspark_batch scheduled__2026-06-26T06:00:00+00:00 [queued]>
+[2026-06-26T07:10:14.155+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2026-06-26T07:10:14.170+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): run_pyspark_batch> on 2026-06-26 06:00:00+00:00
+[2026-06-26T07:10:14.178+0000] {standard_task_runner.py:57} INFO - Started process 51 to run task
+[2026-06-26T07:10:14.188+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'spark_batch_clean_pipeline', 'run_pyspark_batch', 'scheduled__2026-06-26T06:00:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/spark_batch_dag.py', '--cfg-path', '/tmp/tmp9yhl7sac']
+[2026-06-26T07:10:14.194+0000] {standard_task_runner.py:85} INFO - Job 10: Subtask run_pyspark_batch
+[2026-06-26T07:10:14.283+0000] {task_command.py:416} INFO - Running <TaskInstance: spark_batch_clean_pipeline.run_pyspark_batch scheduled__2026-06-26T06:00:00+00:00 [running]> on host 03f05ce4d8bb
+[2026-06-26T07:10:14.366+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='hsm_data_engineer' AIRFLOW_CTX_DAG_ID='spark_batch_clean_pipeline' AIRFLOW_CTX_TASK_ID='run_pyspark_batch' AIRFLOW_CTX_EXECUTION_DATE='2026-06-26T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-26T06:00:00+00:00'
+[2026-06-26T07:10:14.368+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-06-26T07:10:14.369+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '\n        cd /opt/de-roadmap &&         python3 -c "import sys; sys.path.insert(0, \'/opt/de-roadmap/myenv/lib/python3.10/site-packages\'); exec(open(\'spark_batch_clean.py\').read())"\n        ']
+[2026-06-26T07:10:14.378+0000] {subprocess.py:86} INFO - Output:
+[2026-06-26T07:10:14.478+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-06-26T07:10:14.478+0000] {subprocess.py:93} INFO -   File "<string>", line 1, in <module>
+[2026-06-26T07:10:14.479+0000] {subprocess.py:93} INFO -   File "<string>", line 1, in <module>
+[2026-06-26T07:10:14.479+0000] {subprocess.py:93} INFO - ModuleNotFoundError: No module named 'pyspark'
+[2026-06-26T07:10:14.481+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-06-26T07:10:14.487+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-06-26T07:10:14.490+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=spark_batch_clean_pipeline, task_id=run_pyspark_batch, execution_date=20260626T060000, start_date=20260626T071014, end_date=20260626T071014
+[2026-06-26T07:10:14.497+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 10 for task run_pyspark_batch (Bash command failed. The command returned a non-zero exit code 1.; 51)
+[2026-06-26T07:10:14.529+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2026-06-26T07:10:14.538+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-26T07:11:58.606+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_batch_clean_pipeline.run_pyspark_batch scheduled__2026-06-26T06:00:00+00:00 [queued]>
+[2026-06-26T07:11:58.612+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_batch_clean_pipeline.run_pyspark_batch scheduled__2026-06-26T06:00:00+00:00 [queued]>
+[2026-06-26T07:11:58.612+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2026-06-26T07:11:58.622+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): run_pyspark_batch> on 2026-06-26 06:00:00+00:00
+[2026-06-26T07:11:58.626+0000] {standard_task_runner.py:57} INFO - Started process 58 to run task
+[2026-06-26T07:11:58.628+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'spark_batch_clean_pipeline', 'run_pyspark_batch', 'scheduled__2026-06-26T06:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/spark_batch_dag.py', '--cfg-path', '/tmp/tmpocp2ypbw']
+[2026-06-26T07:11:58.629+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask run_pyspark_batch
+[2026-06-26T07:11:58.681+0000] {task_command.py:416} INFO - Running <TaskInstance: spark_batch_clean_pipeline.run_pyspark_batch scheduled__2026-06-26T06:00:00+00:00 [running]> on host 44772392a9dc
+[2026-06-26T07:11:58.768+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='hsm_data_engineer' AIRFLOW_CTX_DAG_ID='spark_batch_clean_pipeline' AIRFLOW_CTX_TASK_ID='run_pyspark_batch' AIRFLOW_CTX_EXECUTION_DATE='2026-06-26T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-26T06:00:00+00:00'
+[2026-06-26T07:11:58.770+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-06-26T07:11:58.772+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '\n        cd /opt/de-roadmap &&         python3 -c "import sys; sys.path.insert(0, \'/opt/de-roadmap/myenv/lib/python3.10/site-packages\'); exec(open(\'spark_batch_clean.py\').read())"\n        ']
+[2026-06-26T07:11:58.789+0000] {subprocess.py:86} INFO - Output:
+[2026-06-26T07:11:58.881+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-06-26T07:11:58.881+0000] {subprocess.py:93} INFO -   File "<string>", line 1, in <module>
+[2026-06-26T07:11:58.881+0000] {subprocess.py:93} INFO -   File "<string>", line 1, in <module>
+[2026-06-26T07:11:58.881+0000] {subprocess.py:93} INFO - ModuleNotFoundError: No module named 'pyspark'
+[2026-06-26T07:11:58.885+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-06-26T07:11:58.892+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-06-26T07:11:58.899+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=spark_batch_clean_pipeline, task_id=run_pyspark_batch, execution_date=20260626T060000, start_date=20260626T071158, end_date=20260626T071158
+[2026-06-26T07:11:58.911+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 4 for task run_pyspark_batch (Bash command failed. The command returned a non-zero exit code 1.; 58)
+[2026-06-26T07:11:58.924+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2026-06-26T07:11:58.934+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-26T07:25:33.304+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_batch_clean_pipeline.run_pyspark_batch scheduled__2026-06-26T06:00:00+00:00 [queued]>
+[2026-06-26T07:25:33.382+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_batch_clean_pipeline.run_pyspark_batch scheduled__2026-06-26T06:00:00+00:00 [queued]>
+[2026-06-26T07:25:33.382+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2026-06-26T07:25:33.395+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): run_pyspark_batch> on 2026-06-26 06:00:00+00:00
+[2026-06-26T07:25:33.399+0000] {standard_task_runner.py:57} INFO - Started process 2011 to run task
+[2026-06-26T07:25:33.403+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'spark_batch_clean_pipeline', 'run_pyspark_batch', 'scheduled__2026-06-26T06:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/spark_batch_dag.py', '--cfg-path', '/tmp/tmpkgicizf6']
+[2026-06-26T07:25:33.404+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask run_pyspark_batch
+[2026-06-26T07:25:33.442+0000] {task_command.py:416} INFO - Running <TaskInstance: spark_batch_clean_pipeline.run_pyspark_batch scheduled__2026-06-26T06:00:00+00:00 [running]> on host 68c80a16ea48
+[2026-06-26T07:25:33.507+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='hsm_data_engineer' AIRFLOW_CTX_DAG_ID='spark_batch_clean_pipeline' AIRFLOW_CTX_TASK_ID='run_pyspark_batch' AIRFLOW_CTX_EXECUTION_DATE='2026-06-26T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-26T06:00:00+00:00'
+[2026-06-26T07:25:33.508+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-06-26T07:25:33.508+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '\n        cd /opt/de-roadmap &&         python3 spark_batch_clean.py\n        ']
+[2026-06-26T07:25:33.516+0000] {subprocess.py:86} INFO - Output:
+[2026-06-26T07:25:33.534+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-06-26T07:25:33.535+0000] {subprocess.py:93} INFO -   File "/opt/de-roadmap/spark_batch_clean.py", line 1, in <module>
+[2026-06-26T07:25:33.535+0000] {subprocess.py:93} INFO -     from pyspark.sql import SparkSession
+[2026-06-26T07:25:33.535+0000] {subprocess.py:93} INFO - ModuleNotFoundError: No module named 'pyspark'
+[2026-06-26T07:25:33.538+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-06-26T07:25:33.546+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-06-26T07:25:33.549+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=spark_batch_clean_pipeline, task_id=run_pyspark_batch, execution_date=20260626T060000, start_date=20260626T072533, end_date=20260626T072533
+[2026-06-26T07:25:33.558+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 4 for task run_pyspark_batch (Bash command failed. The command returned a non-zero exit code 1.; 2011)
+[2026-06-26T07:25:33.577+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2026-06-26T07:25:33.587+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

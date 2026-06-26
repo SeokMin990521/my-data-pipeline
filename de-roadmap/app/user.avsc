@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "UserEvent",
+  "namespace": "com.deroadmap.kafka",
+  "fields": [
+    { "name": "user_id", "type": "int" },
+    { "name": "name", "type": "string" },
+    { "name": "email", "type": ["null", "string"], "default": null }
+  ]
+}
