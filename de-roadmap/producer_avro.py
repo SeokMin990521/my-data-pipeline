@@ -8,7 +8,7 @@ from confluent_kafka.serialization import StringSerializer, SerializationContext
 
 # 1. 스키마 레지스트리 및 카프카 설정
 SR_URL = "http://localhost:8081"
-KAFKA_BOOTSTRAP_SERVERS = "127.0.0.1:9092"
+KAFKA_BOOTSTRAP_SERVERS = "localhost:9092"
 TOPIC_NAME = "avro-user-events"  # 11일차와 동일한 토픽 사용
 
 print("📡 [12일차] 스트리밍 데이터 레이크 파이프라인 가동...")
@@ -29,7 +29,8 @@ string_serializer = StringSerializer('utf_8')
 # 3. 카프카 프로듀서 생성
 producer_config = {
     'bootstrap.servers': KAFKA_BOOTSTRAP_SERVERS,
-    'client.id': 'python-avro-streaming-producer'
+    'client.id': 'python-avro-streaming-producer',
+    'api.version.request': True  # 🌟 이 치트키 옵션을 여기에 딱 추가합니다!
 }
 producer = Producer(producer_config)
 

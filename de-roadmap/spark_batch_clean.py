@@ -1,58 +1,66 @@
+# ~/de-roadmap/spark_batch_clean.py
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, when, to_timestamp
+import os
 
-# 🌟 컨테이너 내부 가상망 주소 완전 고정
-MINIO_URL = "http://host.docker.internal:9000"
+MINIO_URL = "http://127.0.0.1:9000"
 MINIO_ACCESS_KEY = "admin"
 MINIO_SECRET_KEY = "password123"
 RAW_BUCKET = "raw-data-lake"
-MART_BUCKET = "analytics-data-mart"
 
-PG_URL = "jdbc:postgresql://host.docker.internal:5432/analytics_db"
-PG_PROPERTIES = {
-    "user": "postgres",
-    "password": "1234",  # 💡 만약 inspect 시 다르게 나왔다면 그 패스워드로 수정
-    "driver": "org.postgresql.Driver"
-}
+print("⚡ [15일차] Apache Spark 분산 배치 엔진 가동 및 PostgreSQL 적재 준비...")
 
-print("⚡ [Internal Network] 컨테이너 전용 고속 백본망 라우팅 개시...")
-
-spark = SparkSession.builder \
-    .appName("Deroadmap-Spark-Batch-Clean") \
-    .config("spark.hadoop.fs.s3a.endpoint", MINIO_URL) \
-    .config("fs.s3a.connection.ssl.enabled", "false") \
-    .config("spark.hadoop.fs.s3a.access.key", MINIO_ACCESS_KEY) \
-    .config("spark.hadoop.fs.s3a.secret.key", MINIO_SECRET_KEY) \
-    .config("spark.hadoop.fs.s3a.path.style.access", "true") \
-    .config("spark.hadoop.fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem") \
-    .master("local[*]") \
-    .getOrCreate()
-
-# 멈춘 것처럼 보이지 않게 진행 로그 가시화 세팅
-spark.sparkContext.setLogLevel("INFO")
+# S3 커넥터와 함께 PostgreSQL JDBC 드라이버 패키지를 함께 로드합니다.
+spark = (SparkSession.builder
+    .appName("Deroadmap-Spark-Airflow-PostgreSQL")
+    .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:3.3.4,com.amazonaws:aws-java-sdk-bundle:1.12.262,org.postgresql:postgresql:42.6.0")
+    .config("spark.hadoop.fs.s3a.endpoint", MINIO_URL)
+    .config("fs.s3a.connection.ssl.enabled", "false")
+    .config("spark.hadoop.fs.s3a.access.key", MINIO_ACCESS_KEY)
+    .config("spark.hadoop.fs.s3a.secret.key", MINIO_SECRET_KEY)
+    .config("spark.hadoop.fs.s3a.path.style.access", "true")
+    .config("spark.hadoop.fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem")
+    .config("spark.hadoop.fs.s3a.aws.credentials.provider", "org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider")
+    # 14일차 버그 박멸 밀리초 강제 변환 옵션
+    .config("spark.hadoop.fs.s3a.connection.timeout", "60000")
+    .config("spark.hadoop.fs.s3a.connection.establish.timeout", "5000")
+    .config("spark.hadoop.fs.s3a.multipart.purge.age", "86400000")
+    .config("spark.hadoop.fs.s3a.multipart.purge.init.time", "86400000")
+    .master("local[*]")
+    .getOrCreate())
 
 try:
+    # 1. 데이터 레이크 원시 JSON 데이터 로드
     raw_s3_path = f"s3a://{RAW_BUCKET}/year=*/*/*/*/*.json"
-    print(f"📥 데이터 레이크 로딩 중: {raw_s3_path}")
     df = spark.read.json(raw_s3_path)
     
-    print(f"📊 스캔 완료! 총 유입 로우 수: {df.count()}건")
-
+    # 2. 데이터 가공 및 비즈니스 마트 스키마 변환
     cleaned_df = df \
-        .withColumn("event_time", to_timestamp(col("collected_at"), "yyyy-MM-dd HH:mm:ss")) \
-        .withColumn("is_conversion", when(col("email").contains("data-lake.org"), 1).otherwise(0)) \
-        .drop("collected_at")
+        .withColumn("event_time", to_timestamp(col("timestamp"), "yyyy-MM-dd HH:mm:ss")) \
+        .withColumn("is_conversion", when(col("action") == "purchase", 1).otherwise(0)) \
+        .select("user_id", "username", "action", "event_time", "is_conversion")
 
-    mart_s3_path = f"s3a://{MART_BUCKET}/user_conversions"
-    print("💾 [1/2] Parquet 고속 스토리지 저장 중...")
-    cleaned_df.write.mode("overwrite").parquet(mart_s3_path)
-        
-    print("🔮 [2/2] PostgreSQL DW 엔진 적재 중...")
-    cleaned_df.write.jdbc(url=PG_URL, table="bi_user_conversions", mode="overwrite", properties=PG_PROPERTIES)
+    print(f"🧹 정제 완료 데이터 수: {cleaned_df.count()}건")
+
+    # 3. [15일차 핵심] PostgreSQL 분석용 마트 테이블(mart_user_conversions)로 적재
+    print("💾 PostgreSQL 데이터 웨어하우스 마트 테이블 적재 시작...")
     
-    print("🎯 [14일차 미션 최종 완수] 인프라가 완벽하게 결합되었습니다!")
+    # 도커 컴포즈 상의 PostgreSQL 포트가 5432로 호스트에 포워딩되어 있으므로 localhost 통신 가능
+    pg_url = "jdbc:postgresql://127.0.0.1:5432/de_db" 
+    
+    cleaned_df.write \
+        .format("jdbc") \
+        .option("url", pg_url) \
+        .option("dbtable", "mart_user_conversions") \
+        .option("user", "postgres") \
+        .option("password", "password123") \
+        .option("driver", "org.postgresql.Driver") \
+        .mode("overwrite") \
+        .save()
+
+    print("🎯 [Spark 작업 완료] 데이터 레이크 정제 및 PostgreSQL 마트 이관 완수!")
 
 except Exception as e:
-    print(f"❌ 스파크 배치 연산 중 에러 발생: {e}")
+    print(f"❌ 스파크 배치 연산 중 오류 발생: {e}")
 finally:
     spark.stop()

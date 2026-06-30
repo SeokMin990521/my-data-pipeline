@@ -1,15 +1,13 @@
 services:
-  airflow-all-in-one:
-    image: apache/airflow:2.7.2-python3.10
+  my-airflow-container:
+    image: apache/airflow:2.7.3-python3.11
     container_name: my-airflow-container
     restart: always
-    user: "0:0" # 컨테이너 내부 자바(apt-get) 주입을 위해 루트 권한 설정
     environment:
       - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
-      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/airflow.db
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/airflow.db  # ◀ CORE에서 DATABASE로 변경
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
       - AIRFLOW__WEBSERVER__SECRET_KEY=my_super_secret_key_12345
-      - JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
     logging:
       options:
         max-size: "10m"
@@ -19,12 +17,12 @@ services:
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
       - ../:/opt/de-roadmap
+      - airflow-db-volume:/opt/airflow  # ◀ 기존 설정을 '도커 볼륨 이름'으로 변경
+
     ports:
       - "8089:8080"
-    # 💡 DB 초기화를 최우선으로 진행하여 타임아웃 셧다운을 원천 봉쇄한 뒤, 자바를 안전하게 주입합니다.
-    command: >
-      bash -c "airflow db init &&
-      airflow users create --username admin --firstname HSM --lastname DE --role Admin --email admin@example.com --password admin &&
-      apt-get update && apt-get install -y default-jre &&
-      airflow scheduler &
-      exec airflow webserver"
+    command: bash -c "airflow db init && (airflow scheduler & airflow webserver)"
+
+# ◀ 파일의 가장 마지막 줄(맨 밑바닥)에 아래 내용을 똑같이 추가해 줍니다.
+volumes:
+  airflow-db-volume:

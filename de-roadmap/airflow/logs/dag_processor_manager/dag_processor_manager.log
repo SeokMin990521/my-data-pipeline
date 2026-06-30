@@ -1,1473 +1,889 @@
-[2026-06-26T03:32:40.878+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
-[2026-06-26T03:32:40.879+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
-[2026-06-26T03:32:40.879+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2026-06-26T03:32:40.879+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T03:32:40.880+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T03:32:41.039+0000] {manager.py:887} INFO - 
+[2026-06-30T01:21:44.163+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2026-06-30T01:21:44.164+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2026-06-30T01:21:44.165+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-06-30T01:21:44.166+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-06-30T01:21:44.174+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2026-06-30T01:21:45.395+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:32:41
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.84s           2026-06-30T01:21:45
 ================================================================================
-[2026-06-26T03:33:11.168+0000] {manager.py:887} INFO - 
+[2026-06-30T01:22:15.690+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:33:11
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.12s           2026-06-30T01:22:15
 ================================================================================
-[2026-06-26T03:33:41.468+0000] {manager.py:887} INFO - 
+[2026-06-30T01:22:46.004+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:33:41
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-30T01:22:46
 ================================================================================
-[2026-06-26T03:34:11.795+0000] {manager.py:887} INFO - 
+[2026-06-30T01:23:16.251+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:34:11
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-30T01:23:16
 ================================================================================
-[2026-06-26T03:34:42.225+0000] {manager.py:887} INFO - 
+[2026-06-30T01:23:46.388+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T03:34:42
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T01:23:46
 ================================================================================
-[2026-06-26T03:35:12.456+0000] {manager.py:887} INFO - 
+[2026-06-30T01:24:16.607+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:35:12
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T01:24:16
 ================================================================================
-[2026-06-26T03:35:44.258+0000] {manager.py:887} INFO - 
+[2026-06-30T01:24:46.920+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:35:44
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T01:24:46
 ================================================================================
-[2026-06-26T03:36:15.384+0000] {manager.py:887} INFO - 
+[2026-06-30T01:25:17.126+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:36:15
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T01:25:17
 ================================================================================
-[2026-06-26T03:36:45.619+0000] {manager.py:887} INFO - 
+[2026-06-30T01:25:47.568+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T03:36:45
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.22s           2026-06-30T01:25:47
 ================================================================================
-[2026-06-26T03:37:16.693+0000] {manager.py:887} INFO - 
+[2026-06-30T01:26:17.676+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:37:16
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T01:26:17
 ================================================================================
-[2026-06-26T03:37:40.898+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T03:37:40.899+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T03:37:46.869+0000] {manager.py:887} INFO - 
+[2026-06-30T01:26:44.334+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-06-30T01:26:44.335+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2026-06-30T01:26:47.903+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:37:46
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T01:26:47
 ================================================================================
-[2026-06-26T03:38:16.987+0000] {manager.py:887} INFO - 
+[2026-06-30T01:27:18.212+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:38:16
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-30T01:27:18
 ================================================================================
-[2026-06-26T03:38:47.111+0000] {manager.py:887} INFO - 
+[2026-06-30T01:27:49.443+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:38:47
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-30T01:27:49
 ================================================================================
-[2026-06-26T03:39:18.244+0000] {manager.py:887} INFO - 
+[2026-06-30T01:28:19.570+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:39:18
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T01:28:19
 ================================================================================
-[2026-06-26T03:39:49.337+0000] {manager.py:887} INFO - 
+[2026-06-30T01:28:49.777+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T03:39:49
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T01:28:49
 ================================================================================
-[2026-06-26T03:40:19.503+0000] {manager.py:887} INFO - 
+[2026-06-30T01:29:21.826+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:40:19
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.32s           2026-06-30T01:29:21
 ================================================================================
-[2026-06-26T03:40:49.912+0000] {manager.py:887} INFO - 
+[2026-06-30T01:29:52.461+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:40:49
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-30T01:29:52
 ================================================================================
-[2026-06-26T03:41:20.150+0000] {manager.py:887} INFO - 
+[2026-06-30T01:30:22.603+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T03:41:07
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T01:30:22
 ================================================================================
-[2026-06-26T03:41:50.156+0000] {manager.py:887} INFO - 
+[2026-06-30T01:30:52.831+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:41:37
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T01:30:52
 ================================================================================
-[2026-06-26T03:42:20.450+0000] {manager.py:887} INFO - 
+[2026-06-30T01:31:23.080+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:42:08
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T01:31:23
 ================================================================================
-[2026-06-26T03:42:40.949+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T03:42:40.950+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T03:42:50.786+0000] {manager.py:887} INFO - 
+[2026-06-30T01:31:44.374+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-06-30T01:31:44.375+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2026-06-30T01:31:53.440+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.23s           2026-06-26T03:42:38
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-30T01:31:53
 ================================================================================
-[2026-06-26T03:43:21.040+0000] {manager.py:887} INFO - 
+[2026-06-30T01:32:23.689+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:43:08
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-30T01:32:23
 ================================================================================
-[2026-06-26T03:43:51.349+0000] {manager.py:887} INFO - 
+[2026-06-30T01:32:53.876+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:43:39
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T01:32:53
 ================================================================================
-[2026-06-26T03:44:21.539+0000] {manager.py:887} INFO - 
+[2026-06-30T01:33:24.132+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:44:09
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T01:33:24
 ================================================================================
-[2026-06-26T03:44:51.643+0000] {manager.py:887} INFO - 
+[2026-06-30T01:33:54.596+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T03:44:40
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T01:33:54
 ================================================================================
-[2026-06-26T03:45:21.650+0000] {manager.py:887} INFO - 
+[2026-06-30T04:26:54.654+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2026-06-30T04:26:54.665+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2026-06-30T04:26:54.665+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-06-30T04:26:54.665+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-06-30T04:26:54.670+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2026-06-30T04:26:55.300+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:45:10
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.50s           2026-06-30T04:26:55
 ================================================================================
-[2026-06-26T03:45:51.872+0000] {manager.py:887} INFO - 
+[2026-06-30T04:27:25.969+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T03:45:40
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.10s           2026-06-30T04:27:25
 ================================================================================
-[2026-06-26T03:46:21.988+0000] {manager.py:887} INFO - 
+[2026-06-30T04:27:56.360+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T03:46:11
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.32s           2026-06-30T04:27:56
 ================================================================================
-[2026-06-26T03:46:53.017+0000] {manager.py:887} INFO - 
+[2026-06-30T04:28:27.421+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T03:46:32
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:28:27
 ================================================================================
-[2026-06-26T03:47:23.291+0000] {manager.py:887} INFO - 
+[2026-06-30T04:28:57.900+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:47:02
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.31s           2026-06-30T04:28:57
 ================================================================================
-[2026-06-26T03:47:41.007+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T03:47:41.009+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T03:47:53.690+0000] {manager.py:887} INFO - 
+[2026-06-30T04:29:28.918+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:47:32
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:29:28
 ================================================================================
-[2026-06-26T03:48:23.975+0000] {manager.py:887} INFO - 
+[2026-06-30T04:29:59.094+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:48:02
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:29:59
 ================================================================================
-[2026-06-26T03:48:54.296+0000] {manager.py:887} INFO - 
+[2026-06-30T04:30:29.262+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:48:32
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.10s           2026-06-30T04:30:29
 ================================================================================
-[2026-06-26T03:49:24.578+0000] {manager.py:887} INFO - 
+[2026-06-30T04:30:59.541+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:49:03
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-30T04:30:59
 ================================================================================
-[2026-06-26T03:49:55.490+0000] {manager.py:887} INFO - 
+[2026-06-30T04:31:30.657+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:49:33
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.10s           2026-06-30T04:31:30
 ================================================================================
-[2026-06-26T03:50:25.772+0000] {manager.py:887} INFO - 
+[2026-06-30T04:31:54.685+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-06-30T04:31:54.686+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2026-06-30T04:32:00.947+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T03:50:18
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-30T04:32:00
 ================================================================================
-[2026-06-26T03:50:56.273+0000] {manager.py:887} INFO - 
+[2026-06-30T04:32:31.942+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:50:49
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:32:31
 ================================================================================
-[2026-06-26T03:51:26.592+0000] {manager.py:887} INFO - 
+[2026-06-30T04:33:02.227+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:51:19
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.10s           2026-06-30T04:33:02
 ================================================================================
-[2026-06-26T03:51:56.935+0000] {manager.py:887} INFO - 
+[2026-06-30T04:34:04.617+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2026-06-30T04:34:04.617+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2026-06-30T04:34:04.618+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-06-30T04:34:04.618+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-06-30T04:34:04.619+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2026-06-30T04:34:04.774+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:51:49
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:34:04
 ================================================================================
-[2026-06-26T03:52:27.325+0000] {manager.py:887} INFO - 
+[2026-06-30T04:34:35.901+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:52:19
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:34:35
 ================================================================================
-[2026-06-26T03:52:41.057+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T03:52:41.058+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T03:52:57.555+0000] {manager.py:887} INFO - 
+[2026-06-30T04:35:06.098+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:52:49
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:35:06
 ================================================================================
-[2026-06-26T03:53:27.846+0000] {manager.py:887} INFO - 
+[2026-06-30T04:35:36.299+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:53:20
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:35:36
 ================================================================================
-[2026-06-26T03:53:58.861+0000] {manager.py:887} INFO - 
+[2026-06-30T04:36:06.483+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T03:53:50
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:36:06
 ================================================================================
-[2026-06-26T03:54:29.087+0000] {manager.py:887} INFO - 
+[2026-06-30T04:36:36.655+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T03:54:20
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:36:36
 ================================================================================
-[2026-06-26T03:54:38.685+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
-[2026-06-26T04:11:07.777+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
-[2026-06-26T04:11:07.777+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
-[2026-06-26T04:11:07.777+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2026-06-26T04:11:07.778+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T04:11:07.780+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T04:11:07.933+0000] {manager.py:887} INFO - 
+[2026-06-30T04:37:06.830+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T04:11:07
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:37:06
 ================================================================================
-[2026-06-26T04:11:38.061+0000] {manager.py:887} INFO - 
+[2026-06-30T04:37:37.041+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T04:11:38
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:37:37
 ================================================================================
-[2026-06-26T04:12:08.875+0000] {manager.py:887} INFO - 
+[2026-06-30T04:38:07.221+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T04:12:08
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:38:07
 ================================================================================
-[2026-06-26T04:12:40.001+0000] {manager.py:887} INFO - 
+[2026-06-30T04:38:37.423+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T04:12:40
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:38:37
 ================================================================================
-[2026-06-26T04:13:10.125+0000] {manager.py:887} INFO - 
+[2026-06-30T04:39:04.630+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-06-30T04:39:04.631+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2026-06-30T04:39:07.666+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T04:13:10
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:39:07
 ================================================================================
-[2026-06-26T04:13:40.254+0000] {manager.py:887} INFO - 
+[2026-06-30T04:39:37.843+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T04:13:40
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:39:37
 ================================================================================
-[2026-06-26T04:14:10.375+0000] {manager.py:887} INFO - 
+[2026-06-30T04:40:08.021+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T04:14:10
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:40:08
 ================================================================================
-[2026-06-26T04:14:40.501+0000] {manager.py:887} INFO - 
+[2026-06-30T04:40:38.222+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T04:14:40
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:40:38
 ================================================================================
-[2026-06-26T04:15:10.632+0000] {manager.py:887} INFO - 
+[2026-06-30T04:41:08.391+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T04:15:10
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:41:08
 ================================================================================
-[2026-06-26T04:15:40.947+0000] {manager.py:887} INFO - 
+[2026-06-30T04:41:38.618+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T04:15:40
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:41:38
 ================================================================================
-[2026-06-26T04:15:54.095+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
-[2026-06-26T07:10:07.729+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
-[2026-06-26T07:10:07.731+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
-[2026-06-26T07:10:07.731+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2026-06-26T07:10:07.732+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T07:10:07.734+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T07:10:08.074+0000] {manager.py:887} INFO - 
+[2026-06-30T04:42:08.795+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T07:10:08
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:42:08
 ================================================================================
-[2026-06-26T07:10:38.974+0000] {manager.py:887} INFO - 
+[2026-06-30T04:42:38.986+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.10s           2026-06-26T07:10:38
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:42:38
 ================================================================================
-[2026-06-26T07:10:56.818+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
-[2026-06-26T07:11:25.094+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
-[2026-06-26T07:11:25.095+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
-[2026-06-26T07:11:25.095+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2026-06-26T07:11:25.095+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T07:11:25.096+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T07:11:25.253+0000] {manager.py:887} INFO - 
+[2026-06-30T04:43:09.193+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:11:25
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:43:09
 ================================================================================
-[2026-06-26T07:11:59.466+0000] {manager.py:887} INFO - 
+[2026-06-30T04:43:39.367+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:11:59
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:43:39
 ================================================================================
-[2026-06-26T07:12:29.703+0000] {manager.py:887} INFO - 
+[2026-06-30T04:44:04.666+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-06-30T04:44:04.667+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2026-06-30T04:44:09.518+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:12:29
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:44:09
 ================================================================================
-[2026-06-26T07:13:00.086+0000] {manager.py:887} INFO - 
+[2026-06-30T04:44:39.692+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:13:00
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:44:39
 ================================================================================
-[2026-06-26T07:13:30.471+0000] {manager.py:887} INFO - 
+[2026-06-30T04:45:09.870+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:13:30
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:45:09
 ================================================================================
-[2026-06-26T07:14:00.852+0000] {manager.py:887} INFO - 
+[2026-06-30T04:45:40.042+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:14:00
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:45:40
 ================================================================================
-[2026-06-26T07:14:31.095+0000] {manager.py:887} INFO - 
+[2026-06-30T04:46:10.216+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:14:31
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:46:10
 ================================================================================
-[2026-06-26T07:15:02.386+0000] {manager.py:887} INFO - 
+[2026-06-30T04:46:40.392+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:15:02
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:46:40
 ================================================================================
-[2026-06-26T07:15:32.619+0000] {manager.py:887} INFO - 
+[2026-06-30T04:47:10.574+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:15:32
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:47:10
 ================================================================================
-[2026-06-26T07:16:03.100+0000] {manager.py:887} INFO - 
+[2026-06-30T04:47:40.754+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T07:16:03
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:47:40
 ================================================================================
-[2026-06-26T07:16:25.100+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T07:16:25.101+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T07:16:33.349+0000] {manager.py:887} INFO - 
+[2026-06-30T04:48:10.925+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T07:16:07
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:48:10
 ================================================================================
-[2026-06-26T07:17:03.575+0000] {manager.py:887} INFO - 
+[2026-06-30T04:48:41.100+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:16:37
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:48:41
 ================================================================================
-[2026-06-26T07:17:33.808+0000] {manager.py:887} INFO - 
+[2026-06-30T04:49:04.700+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-06-30T04:49:04.700+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2026-06-30T04:49:11.273+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:17:07
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:49:11
 ================================================================================
-[2026-06-26T07:18:40.086+0000] {manager.py:887} INFO - 
+[2026-06-30T04:49:41.394+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:18:40
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:49:41
 ================================================================================
-[2026-06-26T07:19:10.499+0000] {manager.py:887} INFO - 
+[2026-06-30T04:50:11.577+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T07:19:10
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:50:11
 ================================================================================
-[2026-06-26T07:19:40.741+0000] {manager.py:887} INFO - 
+[2026-06-30T04:50:41.765+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:19:40
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:50:41
 ================================================================================
-[2026-06-26T07:20:10.990+0000] {manager.py:887} INFO - 
+[2026-06-30T04:51:12.010+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:20:10
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:51:12
 ================================================================================
-[2026-06-26T07:20:41.230+0000] {manager.py:887} INFO - 
+[2026-06-30T04:51:42.344+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:20:41
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.22s           2026-06-30T04:51:42
 ================================================================================
-[2026-06-26T07:21:11.453+0000] {manager.py:887} INFO - 
+[2026-06-30T04:52:12.476+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:21:11
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:52:12
 ================================================================================
-[2026-06-26T07:21:25.144+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T07:21:25.145+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T07:21:51.842+0000] {manager.py:887} INFO - 
+[2026-06-30T04:52:42.650+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:21:51
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:52:42
 ================================================================================
-[2026-06-26T07:22:22.174+0000] {manager.py:887} INFO - 
+[2026-06-30T04:53:12.817+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T07:22:22
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:53:12
 ================================================================================
-[2026-06-26T07:22:32.980+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
-[2026-06-26T07:23:28.924+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
-[2026-06-26T07:23:28.926+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
-[2026-06-26T07:23:28.926+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2026-06-26T07:23:28.926+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T07:23:28.928+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T07:23:29.091+0000] {manager.py:887} INFO - 
+[2026-06-30T04:53:42.999+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:23:29
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:53:42
 ================================================================================
-[2026-06-26T07:23:59.212+0000] {manager.py:887} INFO - 
+[2026-06-30T04:54:04.732+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-06-30T04:54:04.733+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2026-06-30T04:54:13.173+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:23:59
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:54:13
 ================================================================================
-[2026-06-26T07:24:29.523+0000] {manager.py:887} INFO - 
+[2026-06-30T04:54:43.366+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:24:29
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:54:43
 ================================================================================
-[2026-06-26T07:24:59.737+0000] {manager.py:887} INFO - 
+[2026-06-30T04:55:13.553+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T07:24:43
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:55:13
 ================================================================================
-[2026-06-26T07:25:31.539+0000] {manager.py:887} INFO - 
+[2026-06-30T04:55:43.731+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:25:14
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:55:43
 ================================================================================
-[2026-06-26T07:26:01.569+0000] {manager.py:887} INFO - 
+[2026-06-30T04:56:14.115+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:25:44
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:56:14
 ================================================================================
-[2026-06-26T07:26:31.655+0000] {manager.py:887} INFO - 
+[2026-06-30T04:56:44.307+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:26:15
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:56:44
 ================================================================================
-[2026-06-26T07:27:01.734+0000] {manager.py:887} INFO - 
+[2026-06-30T04:57:14.492+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:26:45
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:57:14
 ================================================================================
-[2026-06-26T07:27:31.823+0000] {manager.py:887} INFO - 
+[2026-06-30T04:57:44.646+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:27:15
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:57:44
 ================================================================================
-[2026-06-26T07:28:01.918+0000] {manager.py:887} INFO - 
+[2026-06-30T04:58:14.859+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:27:46
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:58:14
 ================================================================================
-[2026-06-26T07:28:28.944+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T07:28:28.945+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T07:28:32.003+0000] {manager.py:887} INFO - 
+[2026-06-30T04:58:45.030+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:28:16
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:58:45
 ================================================================================
-[2026-06-26T07:29:02.079+0000] {manager.py:887} INFO - 
+[2026-06-30T04:59:04.767+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-06-30T04:59:04.768+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2026-06-30T04:59:15.336+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:28:46
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.22s           2026-06-30T04:59:15
 ================================================================================
-[2026-06-26T07:29:32.356+0000] {manager.py:887} INFO - 
+[2026-06-30T04:59:45.491+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T07:29:17
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T04:59:45
 ================================================================================
-[2026-06-26T07:31:04.026+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
-[2026-06-26T07:31:04.306+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
-[2026-06-26T07:31:04.306+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
-[2026-06-26T07:31:04.306+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2026-06-26T07:31:04.306+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T07:31:04.308+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T07:31:04.452+0000] {manager.py:887} INFO - 
+[2026-06-30T05:00:15.645+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:31:04
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T05:00:15
 ================================================================================
-[2026-06-26T07:31:34.656+0000] {manager.py:887} INFO - 
+[2026-06-30T05:00:45.814+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:31:34
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T05:00:45
 ================================================================================
-[2026-06-26T07:32:05.052+0000] {manager.py:887} INFO - 
+[2026-06-30T05:01:15.992+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:32:05
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T05:01:15
 ================================================================================
-[2026-06-26T07:32:35.711+0000] {manager.py:887} INFO - 
+[2026-06-30T05:01:46.167+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.41s           2026-06-26T07:32:20
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T05:01:46
 ================================================================================
-[2026-06-26T07:33:05.846+0000] {manager.py:887} INFO - 
+[2026-06-30T05:02:16.351+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T07:32:51
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T05:02:16
 ================================================================================
-[2026-06-26T07:33:36.693+0000] {manager.py:887} INFO - 
+[2026-06-30T05:02:46.524+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:33:21
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T05:02:46
 ================================================================================
-[2026-06-26T07:34:06.771+0000] {manager.py:887} INFO - 
+[2026-06-30T05:03:16.715+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:33:52
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T05:03:16
 ================================================================================
-[2026-06-26T07:34:36.847+0000] {manager.py:887} INFO - 
+[2026-06-30T05:04:01.134+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2026-06-30T05:04:01.135+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2026-06-30T05:04:01.135+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-06-30T05:04:01.135+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-06-30T05:04:01.136+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2026-06-30T05:04:01.500+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:34:22
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.31s           2026-06-30T05:04:01
 ================================================================================
-[2026-06-26T07:35:06.925+0000] {manager.py:887} INFO - 
+[2026-06-30T05:04:32.415+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:34:53
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T05:04:32
 ================================================================================
-[2026-06-26T07:35:37.007+0000] {manager.py:887} INFO - 
+[2026-06-30T05:05:02.592+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:35:23
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T05:05:02
 ================================================================================
-[2026-06-26T07:36:04.451+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T07:36:04.452+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T07:36:07.084+0000] {manager.py:887} INFO - 
+[2026-06-30T05:05:32.769+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:35:53
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T05:05:32
 ================================================================================
-[2026-06-26T07:36:37.854+0000] {manager.py:887} INFO - 
+[2026-06-30T05:06:02.951+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:36:24
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T05:06:02
 ================================================================================
-[2026-06-26T07:37:08.134+0000] {manager.py:887} INFO - 
+[2026-06-30T05:06:33.126+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:36:54
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T05:06:33
 ================================================================================
-[2026-06-26T07:37:38.468+0000] {manager.py:887} INFO - 
+[2026-06-30T05:23:01.173+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2026-06-30T05:23:01.177+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2026-06-30T05:23:01.177+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-06-30T05:23:01.178+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-06-30T05:23:01.179+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2026-06-30T05:23:01.337+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:37:25
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T05:23:01
 ================================================================================
-[2026-06-26T07:38:08.774+0000] {manager.py:887} INFO - 
+[2026-06-30T05:23:31.464+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:37:55
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T05:23:31
 ================================================================================
-[2026-06-26T07:38:45.595+0000] {manager.py:887} INFO - 
+[2026-06-30T05:24:01.764+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:38:25
-================================================================================
-[2026-06-26T07:39:15.630+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:38:56
-================================================================================
-[2026-06-26T07:39:45.704+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:39:27
-================================================================================
-[2026-06-26T07:40:15.782+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:39:57
-================================================================================
-[2026-06-26T07:40:45.864+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:40:27
-================================================================================
-[2026-06-26T07:41:04.646+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T07:41:04.647+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T07:41:15.939+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:40:57
-================================================================================
-[2026-06-26T07:41:53.526+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:41:28
-================================================================================
-[2026-06-26T07:42:23.597+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T07:42:21
-================================================================================
-[2026-06-26T07:59:09.166+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
-[2026-06-26T07:59:09.425+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
-[2026-06-26T07:59:09.425+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
-[2026-06-26T07:59:09.425+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2026-06-26T07:59:09.425+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T07:59:09.426+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T07:59:09.563+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T07:59:09
-================================================================================
-[2026-06-26T08:13:05.937+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
-[2026-06-26T08:58:42.710+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
-[2026-06-26T08:58:42.710+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
-[2026-06-26T08:58:42.710+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2026-06-26T08:58:42.711+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T08:58:42.715+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T08:58:42.901+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T08:58:42
-================================================================================
-[2026-06-26T09:05:25.505+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
-[2026-06-26T09:05:25.766+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
-[2026-06-26T09:05:25.766+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
-[2026-06-26T09:05:25.766+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2026-06-26T09:05:25.767+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T09:05:25.768+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T09:05:25.936+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.12s           2026-06-26T09:05:25
-================================================================================
-[2026-06-26T09:21:26.695+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
-[2026-06-26T09:21:26.954+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
-[2026-06-26T09:21:26.954+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
-[2026-06-26T09:21:26.954+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2026-06-26T09:21:26.954+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T09:21:26.956+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T09:21:27.089+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:21:27
-================================================================================
-[2026-06-26T09:21:57.203+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:21:57
-================================================================================
-[2026-06-26T09:22:27.641+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:22:27
-================================================================================
-[2026-06-26T09:37:38.106+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
-[2026-06-26T09:37:38.937+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
-[2026-06-26T09:37:38.937+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
-[2026-06-26T09:37:38.937+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2026-06-26T09:37:38.939+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T09:37:38.943+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T09:37:39.210+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T09:37:39
-================================================================================
-[2026-06-26T09:38:10.003+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:38:10
-================================================================================
-[2026-06-26T09:38:40.225+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:38:40
-================================================================================
-[2026-06-26T09:39:10.427+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:39:10
-================================================================================
-[2026-06-26T09:39:40.635+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:39:40
-================================================================================
-[2026-06-26T09:40:10.850+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:40:10
-================================================================================
-[2026-06-26T09:40:41.125+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:40:41
-================================================================================
-[2026-06-26T09:41:11.341+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:41:11
-================================================================================
-[2026-06-26T09:41:41.554+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:41:41
-================================================================================
-[2026-06-26T09:42:11.779+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:42:11
-================================================================================
-[2026-06-26T09:42:39.381+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T09:42:39.382+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T09:42:42.005+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:42:42
-================================================================================
-[2026-06-26T09:43:12.276+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:43:12
-================================================================================
-[2026-06-26T09:43:42.615+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:43:42
-================================================================================
-[2026-06-26T09:44:12.851+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:44:12
-================================================================================
-[2026-06-26T09:44:43.215+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T09:44:43
-================================================================================
-[2026-06-26T09:45:14.344+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:45:14
-================================================================================
-[2026-06-26T09:45:44.539+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:45:44
-================================================================================
-[2026-06-26T09:46:14.752+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:46:14
-================================================================================
-[2026-06-26T09:46:44.950+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:46:44
-================================================================================
-[2026-06-26T09:47:15.161+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:47:15
-================================================================================
-[2026-06-26T09:47:39.997+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T09:47:39.998+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T09:47:45.351+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:47:45
-================================================================================
-[2026-06-26T09:48:15.579+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:48:15
-================================================================================
-[2026-06-26T09:48:45.788+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:48:45
-================================================================================
-[2026-06-26T09:49:15.990+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:49:15
-================================================================================
-[2026-06-26T09:49:46.194+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:49:46
-================================================================================
-[2026-06-26T09:50:16.426+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:50:16
-================================================================================
-[2026-06-26T09:50:46.622+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:50:46
-================================================================================
-[2026-06-26T09:51:16.821+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:51:16
-================================================================================
-[2026-06-26T09:51:47.018+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:51:47
-================================================================================
-[2026-06-26T09:52:17.244+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:52:17
-================================================================================
-[2026-06-26T09:52:40.241+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T09:52:40.242+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T09:52:47.449+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:52:47
-================================================================================
-[2026-06-26T09:53:17.669+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:53:17
-================================================================================
-[2026-06-26T09:53:47.863+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:53:47
-================================================================================
-[2026-06-26T09:54:18.065+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:54:18
-================================================================================
-[2026-06-26T09:54:48.273+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:54:48
-================================================================================
-[2026-06-26T09:55:18.479+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:55:18
-================================================================================
-[2026-06-26T09:55:48.710+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:55:48
-================================================================================
-[2026-06-26T09:56:18.909+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:56:18
-================================================================================
-[2026-06-26T09:56:49.111+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:56:49
-================================================================================
-[2026-06-26T09:57:19.304+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:57:19
-================================================================================
-[2026-06-26T09:57:40.387+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T09:57:40.388+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T09:57:49.564+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:57:49
-================================================================================
-[2026-06-26T09:58:19.785+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:58:19
-================================================================================
-[2026-06-26T09:58:49.998+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:58:49
-================================================================================
-[2026-06-26T09:59:20.233+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:59:20
-================================================================================
-[2026-06-26T09:59:50.458+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T09:59:50
-================================================================================
-[2026-06-26T10:16:27.458+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
-[2026-06-26T10:16:30.404+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
-[2026-06-26T10:16:30.404+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
-[2026-06-26T10:16:30.404+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2026-06-26T10:16:30.405+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2026-06-26T10:16:30.415+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
-[2026-06-26T10:16:31.006+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.41s           2026-06-26T10:16:30
-================================================================================
-[2026-06-26T10:17:01.283+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T10:17:01
-================================================================================
-[2026-06-26T10:17:31.509+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T10:17:31
-================================================================================
-[2026-06-26T10:18:01.723+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T10:18:01
-================================================================================
-[2026-06-26T10:18:31.964+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T10:18:31
-================================================================================
-[2026-06-26T10:19:02.195+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-26T10:19:02
-================================================================================
-[2026-06-26T10:19:32.559+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.21s           2026-06-26T10:19:32
-================================================================================
-[2026-06-26T10:20:03.720+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/spark_batch_dag.py                           1           0  0.12s           2026-06-26T10:20:03
+/opt/airflow/dags/spark_batch_dag.py                           1           0  0.11s           2026-06-30T05:24:01
 ================================================================================
