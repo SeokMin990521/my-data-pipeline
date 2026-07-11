@@ -12,3 +12,31 @@
 [2026-07-11T02:28:21.056+0000] {logging_mixin.py:154} INFO - [2026-07-11T02:28:21.056+0000] {dag.py:2941} INFO - Sync 1 DAGs
 [2026-07-11T02:28:21.086+0000] {logging_mixin.py:154} INFO - [2026-07-11T02:28:21.085+0000] {dag.py:3722} INFO - Setting next_dagrun for 15_spark_batch_postgres_dw_pipeline to 2026-07-11T01:00:00+00:00, run_after=2026-07-11T02:00:00+00:00
 [2026-07-11T02:28:21.107+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_batch_dag.py took 0.096 seconds
+[2026-07-11T02:28:51.225+0000] {processor.py:157} INFO - Started process (PID=37) to work on /opt/airflow/dags/spark_batch_dag.py
+[2026-07-11T02:28:51.226+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_batch_dag.py for tasks to queue
+[2026-07-11T02:28:51.227+0000] {logging_mixin.py:154} INFO - [2026-07-11T02:28:51.226+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/spark_batch_dag.py
+[2026-07-11T02:28:51.237+0000] {processor.py:839} INFO - DAG(s) dict_keys(['15_spark_batch_postgres_dw_pipeline']) retrieved from /opt/airflow/dags/spark_batch_dag.py
+[2026-07-11T02:28:51.253+0000] {logging_mixin.py:154} INFO - [2026-07-11T02:28:51.253+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-11T02:28:51.270+0000] {logging_mixin.py:154} INFO - [2026-07-11T02:28:51.270+0000] {dag.py:3722} INFO - Setting next_dagrun for 15_spark_batch_postgres_dw_pipeline to 2026-07-11T01:00:00+00:00, run_after=2026-07-11T02:00:00+00:00
+[2026-07-11T02:28:51.286+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_batch_dag.py took 0.064 seconds
+[2026-07-11T02:29:21.450+0000] {processor.py:157} INFO - Started process (PID=38) to work on /opt/airflow/dags/spark_batch_dag.py
+[2026-07-11T02:29:21.453+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_batch_dag.py for tasks to queue
+[2026-07-11T02:29:21.455+0000] {logging_mixin.py:154} INFO - [2026-07-11T02:29:21.454+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/spark_batch_dag.py
+[2026-07-11T02:29:21.469+0000] {processor.py:839} INFO - DAG(s) dict_keys(['15_spark_batch_postgres_dw_pipeline']) retrieved from /opt/airflow/dags/spark_batch_dag.py
+[2026-07-11T02:29:21.492+0000] {logging_mixin.py:154} INFO - [2026-07-11T02:29:21.492+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-11T02:29:21.514+0000] {logging_mixin.py:154} INFO - [2026-07-11T02:29:21.514+0000] {dag.py:3722} INFO - Setting next_dagrun for 15_spark_batch_postgres_dw_pipeline to 2026-07-11T01:00:00+00:00, run_after=2026-07-11T02:00:00+00:00
+[2026-07-11T02:29:21.545+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_batch_dag.py took 0.103 seconds
+[2026-07-11T02:29:52.040+0000] {processor.py:157} INFO - Started process (PID=39) to work on /opt/airflow/dags/spark_batch_dag.py
+[2026-07-11T02:29:52.042+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_batch_dag.py for tasks to queue
+[2026-07-11T02:29:52.042+0000] {logging_mixin.py:154} INFO - [2026-07-11T02:29:52.042+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/spark_batch_dag.py
+[2026-07-11T02:29:52.085+0000] {processor.py:839} INFO - DAG(s) dict_keys(['15_spark_batch_postgres_dw_pipeline']) retrieved from /opt/airflow/dags/spark_batch_dag.py
+[2026-07-11T02:29:52.139+0000] {logging_mixin.py:154} INFO - [2026-07-11T02:29:52.139+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-11T02:29:52.291+0000] {logging_mixin.py:154} INFO - [2026-07-11T02:29:52.291+0000] {dag.py:3722} INFO - Setting next_dagrun for 15_spark_batch_postgres_dw_pipeline to 2026-07-11T01:00:00+00:00, run_after=2026-07-11T02:00:00+00:00
+[2026-07-11T02:29:52.335+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_batch_dag.py took 0.297 seconds
+[2026-07-11T02:30:22.550+0000] {processor.py:157} INFO - Started process (PID=40) to work on /opt/airflow/dags/spark_batch_dag.py
+[2026-07-11T02:30:22.550+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_batch_dag.py for tasks to queue
+[2026-07-11T02:30:22.551+0000] {logging_mixin.py:154} INFO - [2026-07-11T02:30:22.551+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/spark_batch_dag.py
+[2026-07-11T02:30:22.570+0000] {processor.py:839} INFO - DAG(s) dict_keys(['15_spark_batch_postgres_dw_pipeline']) retrieved from /opt/airflow/dags/spark_batch_dag.py
+[2026-07-11T02:30:22.586+0000] {logging_mixin.py:154} INFO - [2026-07-11T02:30:22.586+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-11T02:30:22.601+0000] {logging_mixin.py:154} INFO - [2026-07-11T02:30:22.601+0000] {dag.py:3722} INFO - Setting next_dagrun for 15_spark_batch_postgres_dw_pipeline to 2026-07-11T01:00:00+00:00, run_after=2026-07-11T02:00:00+00:00
+[2026-07-11T02:30:22.615+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_batch_dag.py took 0.068 seconds
