@@ -1,0 +1,14 @@
+[2026-08-24T04:25:14.735+0000] {processor.py:157} INFO - Started process (PID=24) to work on /opt/airflow/dags/spark_batch_dag.py
+[2026-08-24T04:25:14.739+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_batch_dag.py for tasks to queue
+[2026-08-24T04:25:14.742+0000] {logging_mixin.py:154} INFO - [2026-08-24T04:25:14.740+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/spark_batch_dag.py
+[2026-08-24T04:25:14.796+0000] {processor.py:839} INFO - DAG(s) dict_keys(['15_spark_batch_postgres_dw_pipeline']) retrieved from /opt/airflow/dags/spark_batch_dag.py
+[2026-08-24T04:25:14.829+0000] {logging_mixin.py:154} INFO - [2026-08-24T04:25:14.829+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-08-24T04:25:14.885+0000] {logging_mixin.py:154} INFO - [2026-08-24T04:25:14.884+0000] {dag.py:3722} INFO - Setting next_dagrun for 15_spark_batch_postgres_dw_pipeline to 2026-08-24T03:00:00+00:00, run_after=2026-08-24T04:00:00+00:00
+[2026-08-24T04:25:14.916+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_batch_dag.py took 0.204 seconds
+[2026-08-24T04:25:45.805+0000] {processor.py:157} INFO - Started process (PID=36) to work on /opt/airflow/dags/spark_batch_dag.py
+[2026-08-24T04:25:45.807+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_batch_dag.py for tasks to queue
+[2026-08-24T04:25:45.809+0000] {logging_mixin.py:154} INFO - [2026-08-24T04:25:45.808+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/spark_batch_dag.py
+[2026-08-24T04:25:45.825+0000] {processor.py:839} INFO - DAG(s) dict_keys(['15_spark_batch_postgres_dw_pipeline']) retrieved from /opt/airflow/dags/spark_batch_dag.py
+[2026-08-24T04:25:45.854+0000] {logging_mixin.py:154} INFO - [2026-08-24T04:25:45.854+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-08-24T04:25:45.879+0000] {logging_mixin.py:154} INFO - [2026-08-24T04:25:45.879+0000] {dag.py:3722} INFO - Setting next_dagrun for 15_spark_batch_postgres_dw_pipeline to 2026-08-24T03:00:00+00:00, run_after=2026-08-24T04:00:00+00:00
+[2026-08-24T04:25:45.899+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_batch_dag.py took 0.102 seconds
